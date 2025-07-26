@@ -46,6 +46,15 @@ class sistema {
     }
 }
 
+
 //base de dados
+
 funcionario1 = new funcionario(1, João, "123456789-00", "joao@gmail.com", "thor")
-let base = [funcionario1]; //armazena os usuarios do sistema, tanto clientes quanto funcionarios
+let dados_funcionario = [funcionario1]; //armazena os usuarios dos funcionarios
+
+cliente1 = new cliente(2, "Maria", (14,11,2001), 98765432100, "maria@gmail.com", "arroba")
+let dados_clientes = [cliente1]; //armazena os clientes
+
+let sistema_do_hotel = new sistema();
+
+sistema_do_hotel //inicia a funcionalidade do sistema de hotelaria
